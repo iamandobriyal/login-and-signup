@@ -169,7 +169,7 @@ form p a{
 @media (max-width: 500px) {
 
 	.container{
-		width: 300px;
+		width: 350px;
 		height: 500px;
 	}
 	h1{
@@ -187,5 +187,12 @@ form p a{
 	}
 	.buttons a{
 		font-size: 10px;
+	}
+}
+@media (max-width: 320px) {
+
+	.container{
+		width: 300px;
+		height: 500px;
 	}
 }
